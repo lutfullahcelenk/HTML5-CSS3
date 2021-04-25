@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form oluşturma</title>
+<style>
+    #sifre{
+        width: 300px;
+        border: 2px solid blue;
+        text-align: center;
+        color: blue;
+    }
+</style>
+</head>
+
+<body>
+    <form method="POST">
+        <input type="text"  name="Kullanıcı adı"placeholder="kullanıcı adınızı giriniz">
+        <br><br>
+        <input type="password" id="sifre"  name="Şifre"placeholder="Şifrenizi giriniz">
+       <br><br>
+       <input type="radio" name="gender" id="Cinsiyet" >Erkek
+       <input type="radio" name="gender" id="cinsiyet">Kadın
+       <br>
+       <br> 
+       <select name="Memleket" id="Memleket">
+           <option value="Kars">Kars</option>
+           <option value="Hatay">Hatay</option>
+       </select>
+       <br>
+       <br>
+       <input type="submit" value="Gönder">
+    </form>
+
+
+</body>
+
+</html>
