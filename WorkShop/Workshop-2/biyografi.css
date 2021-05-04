@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+main{
+    background-color: #eee;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+
+#Başlık {
+    text-align: center;
+}
+
+#Tanıtım{
+    border: 1px solid gray;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#Resim{
+    border: 1px solid gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+#Altyazı{
+    background-color: gray;
+  
+}
+
+img{
+    border-radius: 50%;
+}
+
+#Wikipedia{
+    text-align: center;
+}
+
+#Cronology{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+footer{
+    margin-left: 5%;
+}
