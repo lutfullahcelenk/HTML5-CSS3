@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruplayarak Seçme</title>
+    <style>
+        #divsizp ~ div{
+            color: red;
+        }
+        #divsizp + div{
+            color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <p id="divsizp">DİV'siz paragraf</p>
+
+    <div class="container">
+        BURASI DİV'İN İÇERİSİ
+        <p class="paragraf1">
+            PARAGRAF 1
+        </p>
+        <p class="paragraf2">
+            PARAGRAF 2
+        </p>
+        <p class="paragraf3">
+            PARAGRAF 3
+        </p>
+
+    </div>
+
+    
+    
+    <div>
+        <p>Sınıfsız divli paragraf</p>
+    </div>
+
+    <div class="container">
+        <h2>DİV 2</h2>
+    </div>
+
+
+
+
+
+
+    
+</body>
+</html>

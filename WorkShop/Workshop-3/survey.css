@@ -1,0 +1,41 @@
+header{
+    background-color: black;
+    color: green;
+  
+}
+
+#blogname{
+    width: 60%;
+}
+
+#navigation{
+    
+    
+}
+main{
+    background-image: url(WhatsApp\ Image\ 2021-05-06\ at\ 14.21.59.jpeg);
+    color: rgb(117, 43,43);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: max-content;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    border-image-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#bilgiler{
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: rgb(94, 90, 94);
+    text-align: left;
+    color: white;
+    opacity: 0.7;
+    
+}
+
+footer{
+    float: left;
+}
