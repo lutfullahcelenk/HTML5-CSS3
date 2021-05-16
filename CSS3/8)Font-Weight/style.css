@@ -1,0 +1,12 @@
+p{
+    font-weight: bold;
+    font-weight: bolder;
+    font-weight: unset;
+    font-weight: lighter;
+    font-weight: inherit;
+}
+
+
+div{
+    font-weight: bold;
+}
