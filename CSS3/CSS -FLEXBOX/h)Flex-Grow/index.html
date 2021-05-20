@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Grow</title>
+    <style>
+        .container-1 {
+            height: 700px;
+            border: 1px solid black;
+            display: flex;
+            flex-flow: row nowrap;
+          
+        }
+
+        .container-1 div {
+            border: 1px solid gray;
+            padding: 5px;
+            flex-basis: 30%;
+          
+        }
+        .box1{
+            flex-grow: 1;
+        }
+        .box2{
+            flex-grow: 3;
+           
+        }
+        .box3{
+            flex-shrink: 0;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="container-1">
+
+        <div class="box1">
+            <h4>Birinci Kutu</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="box2">
+            <h4>İkinci Kutu</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="box3">
+            <h4>Üçüncü Kutu</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="box4">
+            <h4>Dördüncü Kutu</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="box5">
+            <h4>Beşinci Kutu</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        </div>
+      
+
+    </div>
+</body>
+
+</html>
