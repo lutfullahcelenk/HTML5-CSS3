@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tam Hakimiyet</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .container{
+            display: grid;
+            grid-template-rows: 50px 50px 50px 50px;
+            grid-template-columns: 100px 2fr 1fr;
+            grid-row-gap: 5px;
+            grid-column-gap: 10px;
+            
+            grid-template-areas:
+            "A A C"
+            "D . F"
+            "G H J"
+            "B B E"  ;
+        }
+        .container>div{
+            text-align: center;
+            font-size: 24px;
+        }
+        .box1{
+            background-color: aqua;
+            grid-area: A;
+           
+        }
+        .box2{
+            background-color: bisque;
+            grid-area: B;
+        }
+        .box3{
+            background-color: blue;
+            grid-area: C;
+        }
+        .box4{
+            background-color: blueviolet;
+            grid-area: D;
+           
+        }
+        .box5{
+            background-color: brown;
+            grid-area: E;
+        }
+        .box6{
+            background-color: burlywood;
+            grid-area: F;
+           
+        }
+        .box7{
+            background-color: cadetblue;
+            grid-area: G;
+        }
+        .box8{
+            background-color: chocolate;
+            grid-area: H;
+        }
+        .box9{
+            background-color: crimson;
+            grid-area: J;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box3">3</div>
+        <div class="box4">4</div>
+        <div class="box5">5</div>
+        <div class="box6">6</div>
+        <div class="box7">7</div>
+        <div class="box8">8</div>
+        <div class="box9">9</div>
+    </div>
+</body>
+</html>
