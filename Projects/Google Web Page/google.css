@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+nav{
+    font-size: 0.9em;
+    color: #222;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-right: 10px; 
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 7px;
+}
+
+nav ul li img{
+    margin-top: -15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+nav ul li button{
+    background-color: #24b5c6;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    margin-top: -5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#search{
+    display: flex;
+    border: 0.5px solid #222;
+    border-radius: 25px;
+    min-width: 40%;
+    justify-content: space-around;
+}
+
+#Search{
+    min-width: 70%;
+    border: none;
+    outline: none;
+}
+
+#lucky{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 20%;
+    margin: 20px;
+}
+
+#lucky button{
+    border: none;
+    padding: 3%;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    white-space: nowrap; 
+}
+
+section p{
+    font-size: 0.8rem;
+}
+
+section p a{
+    text-decoration: none;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 9%;
+    background-color: lightgray;
+    opacity: 0.6;
+}
+
+#footerbottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul li{
+    padding: 1%;
+    white-space: nowrap;
+    margin-left: 5px;
+}
+
+#right, #left{
+    list-style-type: none;
+    display: flex;
+    padding: 0px 1%;
+    margin: 0.5%;
+}
+
+footer li a{
+    text-decoration: none;
+}
+
+#Turkey{
+    display: flex;
+    justify-content: flex-start;
+    margin: 1%;
+    text-decoration: none;
+    color: #222;
+    
+}
