@@ -7,7 +7,7 @@
 .container {
     width: 100%;
     height: 910px;
-    background-image: url(backgroundimage.png);
+    background-image: url(img/backgroundimage.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
