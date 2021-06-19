@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 910px;
+    background-image: url(backgroundimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: oldlace;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 5px;
+    height: 80px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style-type: none;
+    padding-top: 25px;
+    padding-left: 30px;
+    margin-left: 30px;
+}
+
+header ul li a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: blueviolet;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+header img {
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 610px;
+    top: 0px;
+    left: 0px;
+    color: #5b081c;
+}
+
+main h1{
+    padding: 30px;
+}
+
+main button {
+    margin-top: 50px;
+    background: none;
+    border: 2px solid #5b081c;
+    border-radius: 25px;
+    padding: 10px;
+    width: 150px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #5b081c;
+}
+
+section h2 {
+    text-align: center;
+    margin: 30px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services h3 {
+    padding: 20px;
+}
+
+#Education,
+#Medical,
+#Clothes {
+    width: 25%;
+    height: 500px;
+    border: 2px solid green;
+    border-radius: 4%;
+    padding: 20px;
+    overflow: auto;
+    text-align: center;
+    background-color: khaki;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: lemonchiffon;
+    font-size: 1.2rem;
+}
